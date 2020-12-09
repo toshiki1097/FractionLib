@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FractionLib</name>
+    </assembly>
+    <members>
+        <member name="M:FractionLib.Fraction.Compare(System.String,System.String)">
+            <summary>
+                Which is it larger number.
+            </summary>
+            <param name="s">(string)Integer or fraction</param>
+            <param name="t">(string)Integer or fraction</param>
+        </member>
+        <member name="M:FractionLib.Fraction.Add(System.String,System.String)">
+            <summary>
+                Add number to number.
+            </summary>
+            <param name="s">(string)Integer or fraction</param>
+            <param name="t">(string)Integer or fraction</param>
+        </member>
+        <member name="M:FractionLib.Fraction.Times(System.String,System.String)">
+            <summary>
+                Multiply number to number.
+            </summary>
+            <param name="s">(string)Integer or fraction</param>
+            <param name="t">(string)Integer or fraction</param>
+        </member>
+        <member name="M:FractionLib.Fraction.Invert(System.String)">
+            <summary>
+                Invert numeric and denominator.
+            </summary>
+            <param name="s">(string)Integer or fraction</param>
+        </member>
+        <member name="M:FractionLib.Fraction.Shape(System.String)">
+            <summary>
+                Shape to irreducible fraction.
+            </summary>
+            <param name="s">(string)Integer or fraction</param>
+        </member>
+        <member name="M:FractionLib.Fraction.ToFraction(System.Int32,System.Int32)">
+            <summary>
+                Convert to fraction.
+            </summary>
+            <param name="n">(int)Numerator</param>
+            <param name="d">(int)Denominator</param>
+        </member>
+        <member name="M:FractionLib.CalcGcd.Gcd(System.Int32,System.Int32)">
+            <summary>
+                Calculate greatest common divisor.
+            </summary>
+            <param name="i">(int)number</param>
+        </member>
+        <member name="T:FractionLib.CalcLcm">
+            <summary>
+                Calculate least common multiple.
+            </summary>
+            <param name="i">(int)number</param>
+        </member>
+    </members>
+</doc>
